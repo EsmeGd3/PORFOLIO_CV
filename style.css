@@ -131,19 +131,24 @@ h3 {
 }
 
 .download-cv {
+  display: inline-block;
   padding: 10px 20px;
-  background-color: var(--button-color);
+  background-color: rgb(9, 40, 70);
   color: #fff;
   border: none;
   border-radius: 20px;
   margin-top: 10px;
   cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
   box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .download-cv:hover {
-  background-color: var(--button-hover-bg);
-  color: var(--button-hover-color);
+  background-color: #ffffff;
+  color: rgb(5, 39, 54);
   box-shadow: none;
 }
 
