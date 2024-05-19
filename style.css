@@ -208,7 +208,7 @@ h3 {
   }
 
   .about {
-    margin-top: 12rem;
+    margin-top: 1rem;
     grid-template-columns: 1fr;
     background-position: center;
   }
